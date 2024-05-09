@@ -1,3 +1,4 @@
+setuptools
 Django==5.0.6
 matplotlib==3.8.4
 pandas==1.5.3
