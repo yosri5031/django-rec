@@ -1,0 +1,13 @@
+<h1>Classification Result:</h1>
+<ul>
+  {% for label in labels %}
+  <li>{{ label }}</li>
+  {% endfor %}
+</ul>
+
+<ul>
+    {% for product in recommended_products %}
+        <li>{{ product.Title }}</li>
+    {% endfor %}
+</ul>
+<img src="plot.png" alt="Product Similarity Plot">
